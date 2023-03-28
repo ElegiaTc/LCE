@@ -29,3 +29,14 @@
 .button:hover {
     background-color: rgb(90,95,115);
 }
+/* PRO */
+.pro {
+    width: 35px;
+    height: 16px;
+    line-height: 16px;
+    text-align: center;
+    font-size: 12px;
+    font-weight: 700;
+    background-color: rgb(255,221,64);
+    color: #000;
+}

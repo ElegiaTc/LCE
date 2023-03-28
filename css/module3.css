@@ -1,0 +1,82 @@
+.module3 {
+  width: 100%;
+  margin-top: 50px;
+  padding-top: 50px;
+  background-color: rgb(24, 25, 30);
+  color: #fff;
+}
+
+.module3>h3 {
+  text-align: center;
+  font-size: 22px;
+}
+
+.module3>p {
+  width: 130px;
+  text-align: center;
+  margin: 15px auto 0;
+  font-size: 14px;
+  color: rgb(118, 218, 255);
+  cursor: pointer;
+}
+
+.module3>p:hover {
+  color: #fff;
+}
+
+.module3 .m3-cards {
+  display: flex;
+  justify-content: space-between;
+  width: 1100px;
+  height: 439px;
+  margin: 50px auto;
+}
+
+.m3-cards .title-cards {
+  width: 375px;
+  height: 439px;
+}
+
+.title-cards .title-box {
+  padding: 15px;
+  border-radius: 5px;
+  cursor: pointer;
+  /* margin-bottom: 5px; */
+}
+
+.focus-box {
+  background-color: rgb(19, 20, 23);
+}
+
+.title-box h4 {
+  height: 100%;
+}
+
+.title-box p {
+  font-size: 13px;
+  line-height: 20px;
+  margin-top: 10px;
+  color: #ccc;
+}
+
+.m3-cards .img-cards {
+  position: relative;
+  width: 688px;
+  height: 439px;
+  overflow: hidden;
+}
+
+.img-cards img {
+  position: absolute;
+  top: 439px;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  opacity: 0.5;
+  transition: all 1s;
+}
+
+.img-cards .focus-img {
+  top: 0;
+  opacity: 1;
+}

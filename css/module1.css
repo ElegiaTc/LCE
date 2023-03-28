@@ -6,15 +6,17 @@
     margin: 0 auto 130px;
     z-index: 9;
 }
+
 .module1>div {
     position: relative;
     width: 350px;
     height: 310px;
     border-radius: 10px;
-    background-color: rgb(44,48,58);
+    background-color: rgb(44, 48, 58);
     color: #fff;
     z-index: 9;
 }
+
 .module1>div img {
     position: absolute;
     top: -25px;
@@ -24,10 +26,12 @@
     border-radius: 5px;
     background-color: #000;
 }
+
 .module1>div h2 {
     margin-top: 60px;
     margin-left: 20px;
 }
+
 .module1>div p {
     margin-top: 15px;
     padding: 0 20px;
@@ -35,10 +39,12 @@
     font-size: 14px;
     color: #ccc;
 }
+
 .module1>div>div {
     margin-top: 15px;
     margin-left: 20px;
 }
+
 .module1>img {
     position: absolute;
     left: -150px;

@@ -1,0 +1,124 @@
+.module2 {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    width: 1100px;
+    margin: 0 auto;
+}
+
+.module2>div {
+    position: relative;
+    width: 340px;
+    height: 300px;
+    margin-bottom: 20px;
+}
+
+.module2>div:nth-child(1)>h2 {
+    font-size: 20px;
+}
+
+.module2>div:nth-child(1)>p {
+    margin-top: 10px;
+    line-height: 20px;
+}
+
+.module2>div .m2-bg {
+    position: absolute;
+    top: 20px;
+    left: 15px;
+    width: 340px;
+    height: 235px;
+    border-radius: 10px;
+    background-color: rgb(30, 31, 38);
+    transition: all .3s;
+}
+
+.module2>div:hover .m2-bg {
+    top: -20px;
+    left: -15px;
+    width: 370px;
+    height: 310px;
+}
+
+.module2>div>img {
+    position: relative;
+    width: 100%;
+    border-radius: 5px;
+    z-index: 999;
+    cursor: pointer;
+}
+
+.module2 .user {
+    position: relative;
+    display: flex;
+    margin-top: 10px;
+    z-index: 999;
+}
+
+.user .avator {
+    width: 40px;
+    height: 40px;
+    margin-right: 10px;
+    border-radius: 5px;
+    background-color: pink;
+    cursor: pointer;
+}
+
+.user h4 {
+    cursor: pointer;
+}
+
+.user p {
+    color: #ccc;
+    cursor: pointer;
+}
+
+.user p:hover {
+    color: #fff;
+}
+
+.module2 .operate {
+    position: relative;
+    display: flex;
+    margin-top: 10px;
+    z-index: 999;
+}
+
+.module2 .operate div {
+    opacity: 0;
+    width: 60px;
+    height: 25px;
+    line-height: 25px;
+    margin-right: 10px;
+    border-radius: 5px;
+    text-align: center;
+    font-size: 14px;
+    transform: translateY(-15px);
+    background-color: #000;
+    cursor: pointer;
+}
+
+.module2 .operate div:hover {
+    background-color: rgb(90, 95, 115);
+}
+
+.module2 .operate div:nth-child(1) {
+    transition: all .3s .2s;
+}
+
+.module2 .operate div:nth-child(2) {
+    transition: all .3s .1s;
+}
+
+.module2 .operate div:nth-child(3) {
+    transition: all .3s;
+}
+
+.module2>div:hover .operate div {
+    opacity: 1;
+    transform: translateY(0);
+}
+.next {
+    width: 60px;
+    margin: 0 auto;
+}
