@@ -1,0 +1,31 @@
+/* 绿色按钮 */
+.button-primary {
+    height: 44px;
+    line-height: 42px;
+    padding: 0 15px;
+    text-align: center;
+    border-radius: 5px;
+    font-size: 14px;
+    background-color: rgb(71,207,115);
+    color: #000;
+    cursor: pointer;
+}
+.button-primary:hover {
+    background-color: rgb(36,140,70);
+    color: #fff;
+}
+/* 灰色按钮 */
+.button {
+    height: 44px;
+    line-height: 42px;
+    padding: 0 15px;
+    text-align: center;
+    border-radius: 5px;
+    font-size: 14px;
+    background-color: rgb(68,72,87);
+    color: #fff;
+    cursor: pointer;
+}
+.button:hover {
+    background-color: rgb(90,95,115);
+}

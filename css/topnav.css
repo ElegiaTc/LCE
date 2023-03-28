@@ -1,0 +1,46 @@
+.topnav {
+    /* position: fixed; */
+    display: flex;
+    justify-content: space-evenly;
+    width: 100%;
+    margin-top: 10px;
+}
+.topnav input {
+    flex: auto;
+    margin: 1px 10px 0;
+    border: none;
+    border-radius: 5px;
+    outline: none;
+    text-indent: 10px;
+    background-color: rgb(37,40,48);
+}
+.topnav input:focus ~.hidden-cards{
+    opacity: 1;
+}
+.topnav .log-in {
+    margin: 0 10px;
+}
+.topnav .hidden-cards {
+    position: absolute;
+    top: 53px;
+    left: 170px;
+    display: flex;
+    justify-content: space-evenly;
+    width: 360px;
+    height: 30px;
+    opacity: 0;
+    transition: all .3s;
+}
+.hidden-cards div {
+    height: 26px;
+    line-height: 25px;
+    padding: 0 8px;
+    opacity: 0.2;
+    transition: all .5s;
+    background-color: rgb(90,95,115);
+    color: #fff;
+    cursor: pointer;
+}
+.hidden-cards div:hover {
+    opacity: 1;
+}
