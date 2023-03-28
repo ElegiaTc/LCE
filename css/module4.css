@@ -1,0 +1,54 @@
+.frameworks {
+  display: flex;
+  justify-content: space-between;
+  width: 1100px;
+  margin: 0 auto;
+}
+
+.frameworks>div {
+  width: 175px;
+  height: 225px;
+  border-radius: 8px;
+}
+
+.framework {
+  width: 160px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  align-items: center;
+  transform: scale(0.93);
+  transition: all .3s;
+  cursor: pointer;
+  -webkit-user-select: none;
+  user-select: none;
+  background-color: rgb(44, 48, 58);
+  color: rgb(118, 218, 255);
+}
+
+.framework:hover {
+  transform: scale(1);
+  color: #fff;
+}
+.frameworks>div>img {
+  width: 120px;
+  height: 120px;
+}
+.frameworks>div>h2 {
+  font-size: 24px;
+}
+.para {
+  margin-top: 5px;
+  line-height: 20px;
+  font-size: 14px;
+  color: #ccc;
+}
+.exp {
+  margin-top:10px;
+  font-size: 14px;
+  color: rgb(118, 218, 255);
+  cursor: pointer;
+}
+.exp:hover {
+  color: #fff;
+}
