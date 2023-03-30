@@ -6,7 +6,28 @@
     width: 160px;
     background-color: rgb(30, 31, 38);
     color: #fff;
-    z-index: 99;
+    z-index: 999;
+    transition: all .4s;
+}
+
+.go-out {
+    left: -160px;
+}
+
+.slider .control {
+    position: absolute;
+    top: 20px;
+    right: -20px;
+    text-align: center;
+    width: 25px;
+    height: 25px;
+    border-radius: 0 5px 5px 0;
+    background-color: rgb(89,94,114);
+    cursor: pointer;
+}
+
+.slider .control:hover {
+    background-color: rgb(112,118,143);
 }
 
 .slider .logo {

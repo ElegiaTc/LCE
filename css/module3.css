@@ -1,9 +1,11 @@
 .module3 {
+  position: relative;
   width: 100%;
   margin-top: 50px;
   padding-top: 50px;
   background-color: rgb(24, 25, 30);
   color: #fff;
+  z-index: 99;
 }
 
 .module3>h3 {
@@ -33,15 +35,28 @@
 }
 
 .m3-cards .title-cards {
+  position: relative;
   width: 375px;
   height: 439px;
+  z-index: 999;
+}
+
+.title-cards>img {
+  position: absolute;
+  top: 115px;
+  left: -140px;
+  width: 890px;
+  height: 665px;
+  z-index: 1;
 }
 
 .title-cards .title-box {
+  position: relative;
   padding: 15px;
   border-radius: 5px;
   cursor: pointer;
   /* margin-bottom: 5px; */
+  z-index: 999;
 }
 
 .focus-box {

@@ -1,10 +1,11 @@
 .frameworks {
+  position: relative;
   display: flex;
   justify-content: space-between;
   width: 1100px;
   margin: 0 auto;
+  z-index: 999;
 }
-
 .frameworks>div {
   width: 175px;
   height: 225px;
