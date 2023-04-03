@@ -2,18 +2,19 @@
     display: flex;
     justify-content: space-between;
     position: relative;
-    width: 1100px;
+    max-width: 1100px;
     margin: 70px auto 110px;
     color: #fff;
     z-index: 9;
 }
 
 .intro .big-title {
-    width: 550px;
+    flex: auto;
+    max-width: 550px;
 }
 
 .intro .big-title h1 {
-    width: 460px;
+    max-width: 460px;
     margin: 0 auto;
     font-size: 38px;
 }
@@ -31,7 +32,8 @@
 
 .demo-cards {
     position: relative;
-    width: 460px;
+    flex: auto;
+    max-width: 460px;
     height: 400px;
     border-radius: 10px;
     background-color: rgb(61, 63, 72);
@@ -64,7 +66,7 @@
 }
 
 .demo-cards>div h4 {
-    margin: 6px 30px;
+    margin: 6px 15px;
     font-size: 14px;
 }
 

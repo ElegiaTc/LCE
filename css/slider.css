@@ -10,6 +10,10 @@
     transition: all .4s;
 }
 
+.slider:hover .control{
+    opacity: 1;
+}
+
 .go-out {
     left: -160px;
 }
@@ -21,9 +25,18 @@
     text-align: center;
     width: 25px;
     height: 25px;
+    line-height: 25px;
     border-radius: 0 5px 5px 0;
     background-color: rgb(89,94,114);
     cursor: pointer;
+}
+
+.hidden {
+    opacity: 0;
+}
+
+.appear {
+    opacity: 1;
 }
 
 .slider .control:hover {

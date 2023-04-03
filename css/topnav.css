@@ -5,15 +5,32 @@
     width: 100%;
     margin-top: 10px;
 }
-.topnav input {
+.topnav .my_input {
+    position: relative;
     flex: auto;
     margin: 1px 10px 0;
-    border: none;
-    border-radius: 5px;
-    outline: none;
-    text-indent: 10px;
-    background-color: rgb(37,40,48);
 }
+
+.my_input_inner {
+    box-sizing: border-box;
+    width: 100%;
+    height: 42px;
+    border: none;
+    outline: none;
+    background-color: rgb(37,40,48);
+    /* 设置输入框的圆角 */
+    border-radius: 5px;
+    font-size: inherit;
+    padding: 0 30px;
+}
+
+.my_input_suffix {
+    position: absolute;
+    top: 10px;
+    left: 8px;
+    height: 100%;
+}
+
 .topnav input:focus ~.hidden-cards{
     opacity: 1;
 }
@@ -22,11 +39,11 @@
 }
 .topnav .hidden-cards {
     position: absolute;
-    top: 53px;
-    left: 170px;
+    top: 50px;
+    left: 0;
     display: flex;
     justify-content: space-evenly;
-    width: 360px;
+    width: 430px;
     height: 30px;
     opacity: 0;
     transition: all .3s;

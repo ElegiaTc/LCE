@@ -1,11 +1,13 @@
 .wrapper {
   position: relative;
+  display: flex;
 }
 
 .module5 {
   position: relative;
-  width: 1100px;
-  height: 480px;
+  flex: auto;
+  max-width: 1100px;
+  /* height: 480px; */
   margin: 120px auto 40px;
   border-radius: 10px;
   z-index: 1;
@@ -48,7 +50,8 @@
   display: flex;
   justify-content: space-between;
   align-items: center;
-  width: 1000px;
+  flex-wrap: wrap;
+  max-width: 1000px;
   margin: 30px auto;
 }
 
