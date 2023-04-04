@@ -75,7 +75,7 @@
     font-size: 14px;
 }
 
-.intro img {
+.intro>img {
     position: absolute;
     width: 590px;
     height: 515px;
@@ -84,10 +84,26 @@
     z-index: 1;
 }
 
+.intro .intro-logo {
+    display: none;
+}
+
 @media screen and (min-width: 768px) and (max-width: 1024px) {
     .intro {
         flex-direction: column-reverse;
         align-items: center;
+    }
+
+    .intro .intro-logo {
+        display: flex;
+        font-size: 34px;
+        width: 200px;
+        margin-bottom: 30px;
+    }
+
+    .intro .intro-logo img {
+        width: 45px;
+        height: 45px;
     }
 
     .demo-cards {
@@ -131,7 +147,7 @@
         margin: 30px auto;
     }
 
-    .intro img {
+    .intro>img {
         right: -140px;
         bottom: -110px;
     }

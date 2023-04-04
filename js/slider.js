@@ -1,7 +1,10 @@
+//收起展开按钮
 const control = document.querySelector('.control');
+//侧边栏
 const slider = document.querySelector('.slider');
+//主栏
 const main = document.querySelector('.main');
-
+//点击计数 1点击收起 2点击展开
 let count = 1;
 
 control.addEventListener('click',function() {

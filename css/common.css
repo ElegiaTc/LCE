@@ -40,3 +40,16 @@
     background-color: rgb(255,221,64);
     color: #000;
 }
+/*logo标志*/
+.logo {
+    display: flex;
+    justify-content: space-between;
+    margin: 15px auto;
+    width: 130px;
+    font-size: 22px;
+}
+
+.logo img {
+    width: 30px;
+    height: 30px;
+}

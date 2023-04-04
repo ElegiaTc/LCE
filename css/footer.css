@@ -49,14 +49,7 @@ footer {
 }
 
 .copyright .logo {
-  margin: 5px auto;
-  width: 120px;
-  font-size: 22px;
-}
-
-.copyright .logo img {
-  width: 30px;
-  height: 30px;
+  margin: 5px;
 }
 
 .copyright p {
