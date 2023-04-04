@@ -14,7 +14,7 @@
 }
 
 .framework {
-  width: 160px;
+  /* width: 160px; */
   display: flex;
   flex-direction: column;
   justify-content: space-evenly;
@@ -53,4 +53,15 @@
 }
 .exp:hover {
   color: #fff;
+}
+
+@media screen and (min-width: 768px) and (max-width: 1024px) {
+  .frameworks {
+    flex-wrap: wrap;
+    width: 90%;
+  }
+  .frameworks>div {
+    max-width: 300px;
+    width: 26%;
+  }
 }

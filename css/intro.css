@@ -83,3 +83,56 @@
     bottom: -475px;
     z-index: 1;
 }
+
+@media screen and (min-width: 768px) and (max-width: 1024px) {
+    .intro {
+        flex-direction: column-reverse;
+        align-items: center;
+    }
+
+    .demo-cards {
+        width: 80%;
+        max-width: 768px;
+        height: 315px;
+        background: linear-gradient(to right, rgb(61, 63, 72), rgb(28, 29, 32));
+    }
+
+    .html {
+        left: -20px;
+        top: 20px;
+    }
+
+    .scss {
+        right: -30px;
+        top: 90px;
+    }
+
+    .js {
+        left: 80px;
+        top: 155px;
+    }
+
+    .intro .big-title {
+        max-width: 808px;
+        margin-top: 120px;
+    }
+
+    .intro .big-title h1 {
+        max-width: 778px;
+        text-align: center;
+    }
+
+    .intro .big-title p {
+        max-width: 768px;
+        text-align: center;
+    }
+
+    .intro .big-title .sign {
+        margin: 30px auto;
+    }
+
+    .intro img {
+        right: -140px;
+        bottom: -110px;
+    }
+}

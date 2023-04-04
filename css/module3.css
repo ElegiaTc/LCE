@@ -96,3 +96,26 @@
   top: 0;
   opacity: 1;
 }
+
+@media screen and (min-width: 768px) and (max-width: 1024px) {
+  .module3 .m3-cards {
+    flex-direction: column;
+    height: 838px;
+    justify-content: start;
+    align-items: center;
+  }
+  .m3-cards .title-cards {
+    width: 575px;
+    max-width: 768px;
+    height: 390px;
+  }
+  .title-cards .title-box {
+    max-width: 768px;
+  }
+  .m3-cards .img-cards {
+    width: 575px;
+  }
+  .title-cards>img {
+    top: 788px;
+  }
+}
